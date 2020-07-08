@@ -12,6 +12,7 @@ RUN \
  apt-get update && \
  apt-get install -y \
  	openconnect \
+	vi \
 	remmina \
 	remmina-plugin-exec \
 	remmina-plugin-nx \
