@@ -11,6 +11,7 @@ RUN \
  echo "**** install packages ****" && \
  apt-get update && \
  apt-get install -y \
+ 	openconnect \
 	remmina \
 	remmina-plugin-exec \
 	remmina-plugin-nx \
