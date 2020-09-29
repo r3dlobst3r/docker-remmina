@@ -11,16 +11,7 @@ RUN \
  echo "**** install packages ****" && \
  apt-get update && \
  apt-get install -y \
- 	openconnect \
-	nano \
-	remmina \
-	remmina-plugin-exec \
-	remmina-plugin-nx \
-	remmina-plugin-rdp \
-	remmina-plugin-spice \
-	remmina-plugin-telepathy \
-	remmina-plugin-vnc \
-	remmina-plugin-xdmcp && \
+ 	thunderbird && \
  echo "**** cleanup ****" && \
  apt-get clean && \
  rm -rf \
