@@ -11,7 +11,9 @@ RUN \
  echo "**** install packages ****" && \
  apt-get update && \
  apt-get install -y \
- 	thunderbird && \
+ 	vim \
+	nano \
+	thunderbird && \
  echo "**** cleanup ****" && \
  apt-get clean && \
  rm -rf \
